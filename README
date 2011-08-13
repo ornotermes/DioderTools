@@ -1,0 +1,14 @@
+This is software to control LEDs over USB, like my modified IKEA DIODER.
+
+dioder_lib.py:
+
+Routines to list, connect to and send message to USB hid device.
+
+dioder_cli.py:
+
+Send commands to HID-device over USB.
+
+dioder_pulse.py:
+
+Audio visualizer based on Ian Halpern's Impulse.
+It requires a copy/link of impulse.so and libimpulse.so to work.

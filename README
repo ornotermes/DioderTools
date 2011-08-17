@@ -12,3 +12,13 @@ dioder_pulse.py:
 
 Audio visualizer based on Ian Halpern's Impulse.
 It requires a copy/link of impulse.so and libimpulse.so to work.
+
+dioder_gtk.py:
+
+Set LED levels from a GTK interface.
+
+
+Permissions to device:
+Depending on your system you might not be able access the HID device as a regular user.
+To solve that you can use udev to set different permissions for the devices you want.
+This helped me: http://dorkbotpdx.org/blog/feurig/98_all_your_atmel_belong_to_us
